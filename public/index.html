@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Life Records</title>
+
+    <link rel="stylesheet" type="text/css" href="scripts/semantic/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="scripts/css/lifeRecordsIndex.css">
+
+    <script src="scripts/js/jquery.min.js"></script>
+    <script src="scripts/semantic/semantic.min.js"></script>
+    <script src="scripts/js/common.js"></script>
+    <script src="scripts/js/lifeRecordIndex.js"></script>
+
+</head>
+
+<body>
+    <div class="ui two item menu headerMenu">
+        <a class="active item">Records View</a>
+        <a class="item" id='addButton'>Add</a>
+    </div>
+
+    <div id='itemsDiv' class="ui four cards">
+        <div class="ui card firstItemDiv" id='firstItemDiv'>
+            <a class="ui right corner label"><i class="remove icon"></i></a>
+            <div class="content">
+                <input type='hidden' class='itemId'>
+                <input type='hidden' class='createdTime'>
+                <input type='hidden' class='updatedTime'>
+                <div class="header">title</div>
+                <div class="meta">time</div>
+                <div class="description">content</div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id='itemModal' class="ui fullscreen modal">
+        <input type='hidden' class='itemId'>
+        <div id='editHeader' class="editHeader">
+            <div class="ui small fluid input">
+                <input type="text" id='editTitleInput' placeholder="title here">
+                <div class="ui huge label" id='showTimeLable'></div>
+            </div>
+        </div>
+        <div class="content" style='width:100%;height:100%;'>
+            <textarea id='editTextarea' placeholder="write..."></textarea>
+        </div>
+    </div>
+
+</body>
+
+</html>
