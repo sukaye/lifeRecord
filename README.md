@@ -22,7 +22,7 @@ $bundle install
 $ruby app.rb
 ```
 ### Screenshot
-![](screenshot/Screenshot-2017-08-05 -2.png)  
+![](screenshot/Screenshot-2017-08-05-2.png)  
 ![](screenshot/Screenshot-2017-08-05-1.png) 
 
 ---
