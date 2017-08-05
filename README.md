@@ -22,8 +22,8 @@ $bundle install
 $ruby app.rb
 ```
 ### Screenshot
-![](screenshot/Screenshot-2017-08-05-2.png)  
-![](screenshot/Screenshot-2017-08-05-1.png) 
+![](screenshot/2017-08-05-1-25074830.jpg)  
+![](screenshot/2017-08-05-2-96654836.jpg) 
 
 ---
 [Sinatra Getting Started](http://www.sinatrarb.com/intro.html)  
