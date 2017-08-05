@@ -1,6 +1,6 @@
-#Sinatra App Demo
-##Sinatra + ActiveRecord + Sqlite3
-###Install Ruby and Sinatra
+# Sinatra App Demo
+## Sinatra + ActiveRecord + Sqlite3
+### Install Ruby and Sinatra
 For example, on Ubuntu 12.04
 ```shell
 $sudo apt-get update
@@ -14,16 +14,16 @@ $rvm rubygems current
 $gem install sinatra
 $gem install thin
 ```
-###Run App
+### Run App
 ```shell
 $git clone https://github.com/sukaye/lifeRecord.git
 $cd lifeRecord
 $bundle install
 $ruby app.rb
 ```
-###Screenshot
-![](doc/screenshot/Screenshot-2017-08-05-1.png) 
-![](doc/screenshot/Screenshot-2017-08-05-2.png) 
+### Screenshot
+![](screenshot/Screenshot-2017-08-05-1.png) 
+![](screenshot/Screenshot-2017-08-05-2.png) 
 
 ---
 [Sinatra Getting Started](http://www.sinatrarb.com/intro.html)
