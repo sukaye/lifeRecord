@@ -22,9 +22,9 @@ $bundle install
 $ruby app.rb
 ```
 ### Screenshot
+![](screenshot/Screenshot-2017-08-05-2.png)  
 ![](screenshot/Screenshot-2017-08-05-1.png) 
-![](screenshot/Screenshot-2017-08-05-2.png) 
 
 ---
-[Sinatra Getting Started](http://www.sinatrarb.com/intro.html)
+[Sinatra Getting Started](http://www.sinatrarb.com/intro.html)  
 [Sinatra/ActiveRecord/sqlite3 App](https://github.com/shannonjen/sinatra_crud_tutorial)
