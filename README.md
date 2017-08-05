@@ -1,5 +1,5 @@
-# Sinatra App Demo
-## Sinatra + ActiveRecord + Sqlite3
+## Sinatra App Demo  
+Sinatra + ActiveRecord + Sqlite3
 ### Install Ruby and Sinatra
 For example, on Ubuntu 12.04
 ```shell
@@ -22,7 +22,7 @@ $bundle install
 $ruby app.rb
 ```
 ### Screenshot
-![](screenshot/Screenshot-2017-08-05-2.png)  
+![](screenshot/Screenshot-2017-08-05 -2.png)  
 ![](screenshot/Screenshot-2017-08-05-1.png) 
 
 ---
