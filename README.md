@@ -13,6 +13,7 @@ $rvm use ruby --default
 $rvm rubygems current
 $gem install sinatra
 $gem install thin
+$gem install bundle
 ```
 ### Run App
 ```shell
