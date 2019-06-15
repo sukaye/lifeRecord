@@ -1,4 +1,4 @@
-## Sinatra App Demo  
+## Notes App - Sinatra  Demo  
 Sinatra + ActiveRecord + Sqlite3
 ### Install Ruby and Sinatra
 For example, on Ubuntu 12.04
@@ -17,11 +17,13 @@ $gem install bundle
 ```
 ### Run App
 ```shell
-$git clone https://github.com/sukaye/lifeRecord.git
+$git clone https://github.com/uxov/notesApp.git
 $cd lifeRecord
 $bundle install
 $ruby app.rb
+
 ```
+### And view in browser: [http://localhost:8088](http://localhost:8088)  
 ### Screenshot
 ![](screenshot/2017-08-05-1-25074830.jpg)  
 ![](screenshot/2017-08-05-2-96654836.jpg) 
