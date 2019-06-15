@@ -17,7 +17,7 @@ $gem install bundle
 ```
 ### Run App
 ```shell
-$git clone https://github.com/uxov/notesApp.git
+$git clone https://github.com/uxov/NotesApp.git
 $cd lifeRecord
 $bundle install
 $ruby app.rb
